@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Convidados - Fab Lab</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro de Convidados</h1>
+  <form id="guestForm">
+    <label>Nome: <input type="text" name="nome" required></label>
+    <label>Email: <input type="email" name="email" required></label>
+    <label>Telefone: <input type="text" name="telefone"></label>
+    <label>Empresa: <input type="text" name="empresa"></label>
+    <label>Data: <input type="date" name="data"></label>
+    <label>Observações: <textarea name="observacoes"></textarea></label>
+    <button type="submit">Salvar</button>
+    <div id="mensagem"></div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
