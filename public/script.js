@@ -1,7 +1,8 @@
-// Substitua pelos seus dados do Supabase
-const supabaseUrl = 'https://SEU-PROJETO.supabase.co';
-const supabaseKey = 'SUA-ANON-KEY';
-const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+
+const supabaseUrl = 'https://xnfjqesjrxelzgxtrweo.supabase.co'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhuZmpxZXNqcnhlbHpneHRyd2VvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI2MTMzMTEsImV4cCI6MjA2ODE4OTMxMX0.lkia2tqmyRNPNDntn0kNHxVOOeJXQXvXvgcDjtWHMzU'
+const supabase = window.supabase.createClient(supabaseUrl, supabaseKey)
 
 document.getElementById('guestForm').addEventListener('submit', async function(event) {
   event.preventDefault();
